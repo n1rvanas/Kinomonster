@@ -421,7 +421,7 @@ body {
   height: 25px;
   display: block;
   margin-bottom: 0;
-  background: url(http://www.jdcdesignstudio.com/img/top-arrow.png) no-repeat center center;
+  background: url(../img/top-arrow.png) no-repeat center center;
 }
 #back-top a:hover span {
   background-color: none;

@@ -1,0 +1,4 @@
+# Ignore docs files
+#Ignore TMP
+
+tmp/
