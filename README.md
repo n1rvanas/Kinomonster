@@ -1,1 +1,1 @@
-# Kinomonster
+# Kinomonster - movie portal
