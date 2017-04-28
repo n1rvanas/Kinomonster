@@ -204,7 +204,7 @@ hr {
 }
 
 
-            /* Страница просмотра фильма */
+/* Страница просмотра фильма */
 .info_film_page {
   margin-top: 2%;
   margin-bottom: 4%;
@@ -314,7 +314,7 @@ hr {
   color: white;
 }
 
-      /* Конец просмотра фильма */
+/* Конец просмотра фильма */
 table {
   width: 100%;
   border: solid 1px #f4f4f4;
@@ -338,7 +338,7 @@ td img {
   font-weight: bold;
 }
 
-          /* Начало футера */
+/* Начало футера */
 .footer {
   width: 100%;
   height: 100px;
@@ -365,36 +365,36 @@ td img {
   padding: 0 0 10px 0;
 }
 
-          /* Конец футера */
+/* Конец футера */
 body a#back-to-top {
-    display: none;
-    position: fixed;
-    z-index: 9999;
-    bottom: 10px;
-    right: 10px;
-    background: rgb(21, 23, 32);
-    color: rgb(255, 255, 255);
-    font-weight: 700;
-    padding: 2px 8px;
-    font-size: 12px;
-    text-decoration: none;
-    border-radius: 2px;
-    -moz-border-radius: 2px;
-    -webkit-border-radius: 2px;
+  display: none;
+  position: fixed;
+  z-index: 9999;
+  bottom: 10px;
+  right: 10px;
+  background: rgb(21, 23, 32);
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  padding: 2px 8px;
+  font-size: 12px;
+  text-decoration: none;
+  border-radius: 2px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
 }
 
 body a {
-    color: rgb(21, 23, 32);
-    text-decoration: none;
+  color: rgb(21, 23, 32);
+  text-decoration: none;
 }
 
 body {
-    background-color: rgb(241, 244, 249);
-    font-size: 13px;
-    min-height: 100%;
+  background-color: rgb(241, 244, 249);
+  font-size: 13px;
+  min-height: 100%;
 }
 
-          /* Начало полосы прокрутки */
+/* Начало полосы прокрутки */
 #back-top {
   position: fixed;
   bottom: 45px;
@@ -414,8 +414,8 @@ body {
 #back-top a:hover {
   color: #bebebe;
 }
- 
-        /* Начало вида полосы прокрутки (span tag) */
+
+/* Начало вида полосы прокрутки (span tag) */
 #back-top span {
   width: 25px;
   height: 25px;
@@ -427,7 +427,7 @@ body {
   background-color: none;
 }
 
-        /*Начало scroll мышки*/
+/*Начало scroll мышки*/
 #mice 
 { margin: 0 auto; padding-bottom: 8em;  padding-top: 5.5em; text-align: center; width: 20px; height: 9px;
 }
@@ -449,8 +449,8 @@ body {
 }
 .unu, .doi, .trei
 {
-    -webkit-animation: mouse-scroll 1s infinite;
-    -moz-animation: mouse-scroll 1s infinite;
+  -webkit-animation: mouse-scroll 1s infinite;
+  -moz-animation: mouse-scroll 1s infinite;
 }
 .unu
 {
@@ -472,8 +472,8 @@ body {
 }
 .mouse
 {
-height: 30px;
-width: 22px;
+  height: 30px;
+  width: 22px;
   border-radius: 10px;
   transform: none;
   border: 2px solid white;
@@ -497,19 +497,19 @@ width: 22px;
 -----------------------------------------------------*/
 @-webkit-keyframes mouse-wheel
 {
-   0% {
-    opacity: 1;
-    -webkit-transform: translateY(0);
-    -ms-transform: translateY(0);
-    transform: translateY(0);
-  }
+ 0% {
+  opacity: 1;
+  -webkit-transform: translateY(0);
+  -ms-transform: translateY(0);
+  transform: translateY(0);
+}
 
-  100% {
-    opacity: 0;
-    -webkit-transform: translateY(6px);
-    -ms-transform: translateY(6px);
-    transform: translateY(6px);
-  }
+100% {
+  opacity: 0;
+  -webkit-transform: translateY(6px);
+  -ms-transform: translateY(6px);
+  transform: translateY(6px);
+}
 }
 
 @-moz-keyframes mouse-wheel
@@ -543,9 +543,18 @@ width: 22px;
   50%  { opacity: .5; }
   100% { opacity: 1; }
 }
-          /*Конец scroll мышки*/
+/*Конец scroll мышки*/
 
-     /*CSS Mobile*/
+
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+/*CSS Mobile*/
 
 @media only screen
 and (min-device-width: 320px)
@@ -565,7 +574,182 @@ and (max-width: 568px) {
 and (min-device-width: 768px)
 and (max-width: 1024px) {
 
-.header {
-  background-color: purple;
- }
+  .header {
+    background-color: purple;
+  }
+}
+
+
+
+////////////////////////////////////////////////////////////////////////////////////
+/* monitors and laptops */
+@media screen
+and (min-width: 1240px) {
+
+}
+
+/* tablet */
+@media screen
+and (min-width: 1024px)
+and (max-width: 1240px) {
+
+}
+
+@media screen
+and (min-width: 768px)
+and (max-width: 1024px) {
+
+}
+
+/* mobile */
+@media screen
+and (max-width: 768px) {
+
+}
+
+/* iPad in portrait & landscape */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px) {
+
+}
+
+/* iPad in landscape */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape) {
+
+}
+
+/* iPad in portrait */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait) {
+
+}
+
+/* Retina iPad in portrait & landscape */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Retina iPad in landscape */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape)
+and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Retina iPad in portrait */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait)
+and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* iPad 1 & 2 in portrait & landscape */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (-webkit-min-device-pixel-ratio: 1){
+
+}
+
+/* iPad 1 & 2 in landscape */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape)
+and (-webkit-min-device-pixel-ratio: 1) {
+
+}
+
+/* iPad 1 & 2 in portrait */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait)
+and (-webkit-min-device-pixel-ratio: 1) {
+
+}
+
+/* iPad mini in portrait & landscape */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (-webkit-min-device-pixel-ratio: 1) {
+
+}
+
+/* iPad mini in landscape */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape)
+and (-webkit-min-device-pixel-ratio: 1) {
+
+}
+
+/* iPad mini in portrait */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait)
+and (-webkit-min-device-pixel-ratio: 1) {
+
+}
+
+/* iPhone 5 in portrait & landscape */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px) {
+
+}
+
+/* iPhone 5 in landscape */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px)
+and (orientation : landscape) {
+
+}
+
+/* iPhone 5 in portrait */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px)
+and (orientation : portrait) {
+
+}
+
+/* iPhone 2G-4S in portrait & landscape */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+
+}
+
+/* iPhone 2G-4S in landscape */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px)
+and (orientation : landscape) {
+
+}
+
+/* iPhone 2G-4S in portrait */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px)
+and (orientation : portrait) {
+
 }
