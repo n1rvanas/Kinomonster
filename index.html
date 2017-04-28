@@ -50,82 +50,75 @@
 </head>
 <body>
 
-	
 	<!-- Load Facebook SDK for JavaScript -->
 	<div id="fb-root"></div>
 	<script>(function(d, s, id) {
 		var js, fjs = d.getElementsByTagName(s)[0];
 		if (d.getElementById(id)) return;
 		js = d.createElement(s); js.id = id;
-		js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1";
+		js.src = "//connect.facebook.net/ru_RU/sdk.js#xfbml=1&version=v2.9&appId=407850649613670";
 		fjs.parentNode.insertBefore(js, fjs);
 	}(document, 'script', 'facebook-jssdk'));</script>
 
-	<!-- Your like button code -->
-	<div class="fb-like" 
-	data-href="https://n1rvanas.github.io/Kinomonster/index.html" 
-	data-layout="standard" 
-	data-action="like" 
-	data-show-faces="true">
-</div>
 
-
-<!--- - - - - - - - Start Menubar - - - - - -->
-<div class="main">
-	<div class="header">
-		<div class="logo">
-			<div class="logo_text">
-				<h1><a href="index.html">КиноМонстр</a></h1>
-				<h2>Кино - наша страсть!</h2>
+	<!--- - - - - - - - Start Menubar - - - - - -->
+	<div class="main">
+		<div class="header">
+			<div class="logo">
+				<div class="logo_text">
+					<h1><a href="index.html">КиноМонстр</a></h1>
+					<h2>Кино - наша страсть!</h2>
+				</div>
 			</div>
-		</div>
-		<div class="menubar">
-			<ul class="menu">
-				<li class="selected"><a href="index.html">Главная</a></li>	
-				<li><a href="films.html">Фильмы</a></li>
-				<li><a href="serial.html">Сериалы</a></li>
-				<li><a href="rating.html">Рейтинг фильмов</a></li>
-				<li><a href="contact.html">Контакты</a></li>
-			</ul>
-		</div>
-	</div>
-	<!--- - - - - - - - Start sidebar - - - - - -->
-	<div class="site_content">
-		<div class="sidebar_container">
-			<div class="sidebar">
-				<h2>Поиск</h2>
-				<!-- Тег FORM -->
-				<form method="post" action="#" id="search_form" >
-					<input type="search" name="search_field" placeholder="Ваш запрос" />
-					<input type="submit" class="btn" value="Найти" />
-				</form>
-			</div>
-			<div class="sidebar">
-				<h2>Вход</h2>
-				<form method="post" action="#" id="login">
-					<input type="text" name="login_field" placeholder="Логин" />
-					<input type="password" name="password_field" placeholder="Пароль" />
-					<input type="submit" class="btn" value="Вход" />
-					<div class="lables_passreg_text">
-						<span><a href="#">Забыли пароль?</a></span> | <span><a href="#">Регистрация</a></span>
-					</div>
-				</form>
-			</div>
-			<div class="sidebar">
-				<h2>Новости</h2>
-				<span>31.02.2018</span>
-				<p>Мы запустили расширенный поиск</p>
-				<a href="#">Читать</a>
-			</div>
-			<div class="sidebar">
-				<h2>Рейтинг фильмов</h2>
-				<ul>
-					<li><a href="show.html">Интерстеллар</a><span class="rating_sidebar">8.1</span></li>
-					<li><a href="#">Матрица</a><span class="rating_sidebar">8.0</span></li>
-					<li><a href="#">Безумный макс</a><span class="rating_sidebar">7.5</span></li>
-					<li><a href="#">Облачный атлас</a><span class="rating_sidebar">7.4</span></li>
+			<div class="menubar">
+				<ul class="menu">
+					<li class="selected"><a href="index.html">Главная</a></li>	
+					<li><a href="films.html">Фильмы</a></li>
+					<li><a href="serial.html">Сериалы</a></li>
+					<li><a href="rating.html">Рейтинг фильмов</a></li>
+					<li><a href="contact.html">Контакты</a></li>
 				</ul>
 			</div>
+		</div>
+		<!--- - - - - - - - Start sidebar - - - - - -->
+		<div class="site_content">
+			<div class="sidebar_container">
+				<div class="sidebar">
+					<h2>Поиск</h2>
+					<!-- Тег FORM -->
+					<form method="post" action="#" id="search_form" >
+						<input type="search" name="search_field" placeholder="Ваш запрос" />
+						<input type="submit" class="btn" value="Найти" />
+					</form>
+				</div>
+				<div class="sidebar">
+					<h2>Вход</h2>
+					<form method="post" action="#" id="login">
+						<input type="text" name="login_field" placeholder="Логин" />
+						<input type="password" name="password_field" placeholder="Пароль" />
+						<input type="submit" class="btn" value="Вход" />
+						<div class="lables_passreg_text">
+							<span><a href="#">Забыли пароль?</a></span> | <span><a href="#">Регистрация</a></span>
+						</div>
+					</form>
+				</div>
+				<div class="sidebar">
+					<h2>Новости</h2>
+					<span>31.02.2018</span>
+					<p>Мы запустили расширенный поиск</p>
+					<a href="#">Читать</a>
+				</div>
+				<div class="sidebar">
+					<h2>Рейтинг фильмов</h2>
+					<ul>
+						<li><a href="show.html">Интерстеллар</a><span class="rating_sidebar">8.1</span></li>
+						<li><a href="#">Матрица</a><span class="rating_sidebar">8.0</span></li>
+						<li><a href="#">Безумный макс</a><span class="rating_sidebar">7.5</span></li>
+						<li><a href="#">Облачный атлас</a><span class="rating_sidebar">7.4</span></li>
+					</ul>
+				</div>
+				<!-- Your like button code -->
+				<div class="fb-like" data-href="https://n1rvanas.github.io/Kinomonster/index.html" data-layout="button_count" data-action="recommend" data-size="large" data-show-faces="true" data-share="true"></div>
 				<!-- <div class="sidebar_button">
 					<button><a href="rating.html">КНОПКА</a></button>
 				</div> -->
