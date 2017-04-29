@@ -1,0 +1,323 @@
+
+/* iPhone 5 in landscape */
+
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 568px) {
+
+  .header {
+    background-color: #257965;
+    min-width: 100%;
+    height: 20%;
+    text-align: center;
+  }
+
+  .logo {
+    width: 100%;
+  }
+
+  .site_content {
+    width: 100%;
+  }
+
+  .menubar {
+    width: 100%;
+    height: 100%;
+  }
+
+  .content {
+    width: 100%;
+    text-align: center;
+  }
+
+  .site_content {
+    width: 100%;
+    text-align: center;
+  }
+
+  .sidebar_container {
+    display: none;
+  }
+
+  .footer {
+    display: none;
+  }
+
+  ul.menu {
+    float: none;
+  }
+
+  ul.menu li {
+    margin: 0;
+    padding: 0;
+    float: none;
+  }
+
+  .logo h1 {
+    font: normal 235% 'century gothic', arial, sans-serif;
+  }
+
+  .logo h2 {
+    font: normal 100% 'century gothic', arial, sans-serif;
+    color: white;
+  }
+
+  .content h1, h2 {
+    font: normal 110% 'century gothic', arial;
+  }
+
+  .films_block img {
+    width: 43%;
+  }
+
+  .posts_content p {
+    line-height: 1.5em;
+    padding: 3%;
+    text-align: left;
+  }
+
+  .posts p {
+    font-size: 120%;
+  }
+
+  /* Films page */
+  .info_film {
+    float: none;
+    height: 100%;
+  }
+
+  .info_film img {
+    width: 90%;
+    margin-bottom: 5%;
+  }
+
+  .button {
+   float: none;
+ }
+
+ /* Rating page */
+ table {
+  display: block;
+}
+
+th {
+  font-size: 75%;
+}
+
+td {
+  padding: 0;
+  margin: 0;
+  font-size: 95%;
+  text-align: left;
+}
+
+/* Show page */
+iframe {
+  width: 80%;
+  height: 100%;
+}
+
+.descriptions_film {
+  width: 90%;
+  text-align: left;
+  margin-left: 2%;
+}
+
+.descriptions_film img {
+  float: none;
+  width: 73%;
+  display: block;
+  margin: 0;
+  padding: 0;
+  margin-left: 11%;
+  margin-bottom: 7%;
+}
+
+.reviews {
+  text-align: left;
+  width: 96%;
+}
+
+.send input[type="text"] {
+  width: 80%;
+}
+
+.send textarea {
+  width: 85%;
+}
+}
+
+
+
+/////////////////////////////////////////////////
+/* monitors and laptops */
+@media screen
+and (min-width: 1240px) {
+
+}
+
+/* tablet */
+@media screen
+and (min-width: 1024px)
+and (max-width: 1240px) {
+
+}
+
+@media screen
+and (min-width: 768px)
+and (max-width: 1024px) {
+
+}
+
+/* mobile */
+@media screen
+and (max-width: 768px) {
+
+}
+
+/* iPad in portrait & landscape */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px) {
+
+}
+
+/* iPad in landscape */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape) {
+
+}
+
+/* iPad in portrait */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait) {
+
+}
+
+/* Retina iPad in portrait & landscape */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Retina iPad in landscape */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape)
+and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Retina iPad in portrait */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait)
+and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* iPad 1 & 2 in portrait & landscape */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (-webkit-min-device-pixel-ratio: 1){
+
+}
+
+/* iPad 1 & 2 in landscape */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape)
+and (-webkit-min-device-pixel-ratio: 1) {
+
+}
+
+/* iPad 1 & 2 in portrait */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait)
+and (-webkit-min-device-pixel-ratio: 1) {
+
+}
+
+/* iPad mini in portrait & landscape */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (-webkit-min-device-pixel-ratio: 1) {
+
+}
+
+/* iPad mini in landscape */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape)
+and (-webkit-min-device-pixel-ratio: 1) {
+
+}
+
+/* iPad mini in portrait */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait)
+and (-webkit-min-device-pixel-ratio: 1) {
+
+}
+
+/* iPhone 5 in portrait & landscape */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px) {
+
+}
+
+/* iPhone 5 in landscape */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px)
+and (orientation : landscape) {
+
+}
+
+/* iPhone 5 in portrait */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px)
+and (orientation : portrait) {
+
+}
+
+/* iPhone 2G-4S in portrait & landscape */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+
+}
+
+/* iPhone 2G-4S in landscape */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px)
+and (orientation : landscape) {
+
+}
+
+/* iPhone 2G-4S in portrait */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px)
+and (orientation : portrait) {
+
+}
