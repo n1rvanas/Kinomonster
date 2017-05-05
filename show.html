@@ -6,13 +6,37 @@
 	<title>Фильм Интерстеллар</title>
 	<meta name="description" content="Киномонстр - это портал о кино" />
 	<meta name="keywords" content="фильмы, фильмы онлайн, hd" />
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 	<link rel="stylesheet" href="assets/css/style.css">
 	<link rel="stylesheet" href="assets/css/media-queries.css">
-<!-- 	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
-	<link rel="stylesheet" href="assets/js/scrollReveal.min.jsver=2.1.0"> -->
+
+	<!-- Slippry: A Free jQuery Responsive Slider Plugin for Modern Times -->
+	<link rel="stylesheet" href="assets/css/slippry.css">
+	<link rel="stylesheet" href="assets/css/bootstrap-theme.min.css">
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/bootstrap-theme.min.css.map">
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css.map">
+
+	<!-- Include the CSS -->
+	<link href="dist/toolkit.min.css" rel="stylesheet">
+
+	<script src="lib/bootstrap/js/"></script>
+	<script src="assets/js/bootstrap.min.js"></script>
+	<script src="assets/js/preloader.min.js"></script>
+	<script src="assets/js/modernizr.js"></script> <!-- Modernizr -->
+	<script src="assets/js/slippry.js"></script> <!-- slideshow -->
+	<script src="assets/js/typed.js"></script> <!-- type ani -->
 </head>
 <body>
-	<!-- Начало меню -->
+	<!--- - - - - - - - Start Menubar - - - - - -->
 	<div class="main">
 		<div class="header">
 			<div class="logo">
@@ -30,13 +54,15 @@
 					<li><a href="contact.html">Контакты</a></li>
 				</ul>
 			</div>
+			<div class="sidebar_button">
+				<a href="#"></a>
+			</div>
 		</div>
-		<!-- Начало бокового sidebar -->
+		<!--- - - - - - - - Start sidebar - - - - - -->
 		<div class="site_content">
 			<div class="sidebar_container">
 				<div class="sidebar">
 					<h2>Поиск</h2>
-					<!-- Тег FORM -->
 					<form method="post" action="#" id="search_form" >
 						<input type="search" name="search_field" placeholder="Ваш запрос" />
 						<input type="submit" class="btn" value="Найти" />
@@ -69,7 +95,7 @@
 					</ul>
 				</div>
 			</div>
-			<!-- Начало основного контента -->
+			<!--- - - - - - - - Start main content - - - - - -->
 			<div class="content">
 				<h1>Интерстеллар</h1>
 				<iframe width="560" height="315" src="https://www.youtube.com/embed/R5KHoE_8dgo?showinfo=0" frameborder="0" allowfullscreen></iframe>
@@ -111,7 +137,7 @@
 				</div>
 			</div>
 		</div>
-		<!-- Начало футера -->
+		<!--- - - - - - - - Start footer - - - - - -->
 		<div class="footer">
 			<p>
 				<a href="index.html">Главная</a> |
@@ -124,9 +150,22 @@
 		</div>
 	</div>
 	
-	<!-- Scroll Top Panel -->
+	<!--- - - - - - - - Scroll Top Panel - - - - - -->
 	<p id="back-top"><a href="#top"><span></span></a></p>
-	<!-- End Scroll Top Panel -->
+
+	<!--- - - - - - - - Resource jQuery - - - - - -->
+	<script src="assets/js/main.js"></script>
+	<script src="assets/js/scrollReveal.min.js"></script>
+	<!--- - - - - - - - Атрибут defer откладывает выполнение скрипта, пока вся страница не будет загружена полностью - - - - - -->
+	<script src="assets/js/parallax.js" defer></script> 
+
+
+	<!--- - - - - - - - jQuery (necessary for Bootstrap's JavaScript plugins) - - - - - -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+	<!--- - - - - - - - Include all compiled plugins (below), or include individual files as needed - - - - - -->
+	<script src="js/bootstrap.min.js"></script>
+	<script src="dist/toolkit.min.js"></script>
 
 </body>
 </html>

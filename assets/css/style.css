@@ -1,3 +1,4 @@
+
 * {
   margin: 0;
   padding: 0;
@@ -73,7 +74,7 @@ ul li {
 }
 
 .logo h1, .logo h2 {
-  font: normal 300% 'century gothic', arial, sans-serif;
+  font: normal 400% 'century gothic', arial, sans-serif;
   margin: 0 0 0 9px;
 }
 
@@ -85,11 +86,13 @@ ul li {
 }
 
 .logo_text h2 {
-  font-size: 0.9em;
+  font-size: 1.5em;
   padding: 4px 0 0 0;
   color: #999;
 }
 
+
+/* --- - - - - - - - Start Menubar - - - - - -- */
 .menubar {
   width: 900px;
   height: 46px;
@@ -107,7 +110,7 @@ ul.menu li {
 }
 
 ul.menu li a {
-  font: normal 100% 'trebuchet ms', sans-serif;
+  font: normal 120% 'trebuchet ms', sans-serif;
   display: block;
   height: 20px;
   padding: 6px 35px 5px 28px;
@@ -126,7 +129,10 @@ ul.menu li a:hover {
 hr {
   border: solid 1px #f3f3f3;
 }
+/* --- - - - - - - - End Menubar - - - - - -- */
 
+
+/* --- - - - - - - - Start sidebar - - - - - -- */
 .site_content {
   width: 880px;
   overflow:hidden;
@@ -202,9 +208,10 @@ hr {
 .posts .posts_content {
   font-size: 0.8em;
 }
+/* --- - - - - - - - End sidebar - - - - - -- */
 
 
-/* Страница просмотра фильма */
+/*--- - - - - - - - Movie Preview Page - - - - - --*/
 .info_film_page {
   margin-top: 2%;
   margin-bottom: 4%;
@@ -305,16 +312,18 @@ hr {
   float: right;
   margin-top: 5%;
   clear: both;
-  font-size: 0.8em;
-  width: 60px;
+  font-size: 0.9em;
+  width: 80px;
   text-align: center;
 }
 
 .button a {
   color: white;
 }
+/* --- - - - - - - - End Movie Preview Page - - - - - -- */
 
-/* Конец просмотра фильма */
+
+/* --- - - - - - - - Start main content - - - - - -- */
 table {
   width: 100%;
   border: solid 1px #f4f4f4;
@@ -326,7 +335,7 @@ td {
 }
 
 td img {
-  width: 60px;
+  width: 150px;
   vertical-align: middle;
 }
 
@@ -337,8 +346,10 @@ td img {
 .rating {
   font-weight: bold;
 }
+/* --- - - - - - - - End main content - - - - - -- */
 
-/* Начало футера */
+
+/* --- - - - - - - - Start footer - - - - - -- */
 .footer {
   width: 100%;
   height: 100px;
@@ -364,9 +375,11 @@ td img {
 .footer p {
   padding: 0 0 10px 0;
 }
+/* --- - - - - - - - End Start footer - - - - - -- */
 
-/* Конец футера */
-body a#back-to-top {
+
+/* --- - - - - - - - Scroll Top Panel - - - - - -- */
+body a #back-to-top {
   display: none;
   position: fixed;
   z-index: 9999;
@@ -394,7 +407,7 @@ body {
   min-height: 100%;
 }
 
-/* Начало полосы прокрутки */
+
 #back-top {
   position: fixed;
   bottom: 45px;
@@ -414,8 +427,10 @@ body {
 #back-top a:hover {
   color: #bebebe;
 }
+/* --- - - - - - - - End Scroll Top Panel - - - - - -- */
 
-/* Начало вида полосы прокрутки (span tag) */
+
+/* --- - - - - - - - Начало вида полосы прокрутки (span tag) - - - - - -- */
 #back-top span {
   width: 25px;
   height: 25px;
@@ -427,7 +442,8 @@ body {
   background-color: none;
 }
 
-/*Начало scroll мышки*/
+
+/* --- - - - - - - - Начало scroll мышки - - - - - -- */
 #mice 
 { margin: 0 auto; padding-bottom: 8em;  padding-top: 5.5em; text-align: center; width: 20px; height: 9px;
 }
@@ -543,4 +559,3 @@ body {
   50%  { opacity: .5; }
   100% { opacity: 1; }
 }
-/*Конец scroll мышки*/
